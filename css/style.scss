@@ -23,32 +23,49 @@ a {
     max-width: $container-desktop;
 }
 
-.header__body {
-    height: 85px;
-    display: flex;
-    justify-content: space-between;
+.header {
+    background-color: $color1;
 
-    .header__brand {
-        margin-top: 31px;
-    }
 
-    .header__menu {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        color: $color2;
-        width: 422px;
-        margin-top: 35px;
+    .header__body {
+        height: 85px;
         display: flex;
         justify-content: space-between;
-    }
 
-    .header__buttons {
-        margin-top: 35px;
-        width: 99px;
-        display: flex;
-        justify-content: space-between;
+        .header__brand {
+            margin-top: 31px;
+        }
+
+        .header__menu {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: $color2;
+            width: 422px;
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header__buttons {
+            margin-top: 35px;
+            width: 99px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+.main {
+    background-color: $color1;
+
+    .main-upper__body {
+        height: 768px;
+        background-image: url(../img/Watch_main.png), url(../img/Ellipse.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: right 100px top, center;
     }
 }
