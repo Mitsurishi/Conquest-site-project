@@ -1,0 +1,19 @@
+$container-desktop: 1171px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: $container-desktop;
+}
