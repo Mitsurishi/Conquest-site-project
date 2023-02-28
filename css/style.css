@@ -9,9 +9,37 @@ li {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1171px;
 }
+
+.header__body {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__body .header__brand {
+  margin-top: 31px;
+}
+.header__body .header__menu {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #555248;
+  width: 422px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__body .header__buttons {
+  margin-top: 35px;
+  width: 99px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
