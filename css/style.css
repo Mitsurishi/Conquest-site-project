@@ -234,4 +234,69 @@ a {
   font-size: 16px;
   line-height: 21px;
   color: #1B1A17;
+}
+.main .main-mid-body__wrapper {
+  height: 519px;
+  background: url(../img/Ellipse_mid1.svg), url(../img/Elipse_mid2.svg), linear-gradient(to right, #F7F5EF 34%, #FDFDFB 34%);
+  background-repeat: no-repeat;
+  background-position: right top, right top 12px;
+}
+.main .main-mid-body__wrapper .main-mid__body {
+  padding-top: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-mid-body__wrapper .main-mid__body .main-mid-banner__picture {
+  margin-right: 69px;
+}
+.main .main-mid-body__wrapper .main-mid__body .main-mid-quality__body .main-mid__title {
+  margin-bottom: 38px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+.main .main-mid-body__wrapper .main-mid__body .main-mid-quality__body .main-mid__subtitle {
+  width: 376px;
+  margin-bottom: 45px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444240;
+}
+.main .main-mid-body__wrapper .main-mid__body .main-mid-quality__body .main-mid__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 205px;
+  height: 64px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  background-color: #D4B098;
+}
+.main .main-mid-body__wrapper .mid-pagination__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.main .main-mid-body__wrapper .mid-pagination__wrapper .main-mid__pagination {
+  margin: 20px 100px 0 0;
+  width: 63px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .main-mid-body__wrapper .mid-pagination__wrapper .main-mid__pagination .main-mid-slide__number {
+  font-family: "Prata";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1B1A17;
+  opacity: 82%;
 }/*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@ $color2: #555248;
 $color3: #444240;
 $color4: #1B1A17;
 $color5: #8B8371;
+$color6: #F7F5EF;
 $color-white: #FFFFFF;
 $color-black: #000000;
 $container-desktop: 1171px;
@@ -284,4 +285,82 @@ a {
             }
         }
     }
+
+    .main-mid-body__wrapper {
+        height: 519px;
+        background: url(../img/Ellipse_mid1.svg), url(../img/Elipse_mid2.svg),
+            linear-gradient(to right, #F7F5EF 34%, $color1 34%);
+        background-repeat: no-repeat;
+        background-position: right top, right top 12px;
+
+        .main-mid__body {
+            padding-top: 52px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .main-mid-banner__picture {
+                margin-right: 69px;
+            }
+
+            .main-mid-quality__body {
+                .main-mid__title {
+                    margin-bottom: 38px;
+                    font-family: 'Playfair Display';
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 43px;
+                    color: $color4;
+                }
+
+                .main-mid__subtitle {
+                    width: 376px;
+                    margin-bottom: 45px;
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: $color3;
+                }
+
+                .main-mid__button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 205px;
+                    height: 64px;
+                    font-family: 'Roboto';
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 0.05em;
+                    color: $color-white;
+                    background-color: #D4B098;
+                }
+            }
+        }
+
+        .mid-pagination__wrapper {
+            display: flex;
+            justify-content: center;
+
+            .main-mid__pagination {
+                margin: 20px 100px 0 0;
+                width: 63px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .main-mid-slide__number {
+                    font-family: 'Prata';
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: $color4;
+                    opacity: 82%;
+                }
+            }
+        }
+    }
+
 }
