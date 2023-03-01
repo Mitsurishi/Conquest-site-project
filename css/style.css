@@ -151,8 +151,10 @@ a {
 .main {
   background-color: #FFFFFF;
 }
+.main .main-upper__body {
+  padding: 79px 0 86px 0;
+}
 .main .main-upper__body .main-upper__title {
-  margin-top: 79px;
   display: flex;
   justify-content: center;
   font-family: "Playfair Display";
@@ -171,8 +173,65 @@ a {
   color: #444240;
   border-bottom: 1px solid #C4C0B6;
   margin-left: auto;
-  margin-bottom: 25.5px;
 }
 .main .main-upper__body .main-upper-items__body {
   display: flex;
+  justify-content: space-between;
+  padding-top: 25.5px;
+}
+.main .main-upper__body .main-upper-items__body .main-upper__item {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 370px;
+  height: 467px;
+  background-image: url(../img/Ellipse_item.svg);
+  background-position: 28px 90px;
+  background-repeat: no-repeat;
+  background-color: #FDFDFB;
+}
+.main .main-upper__body .main-upper-items__body .main-upper__item .main-item__body .item__heading {
+  margin: 35px 0 0 20px;
+}
+.main .main-upper__body .main-upper-items__body .main-upper__item .main-item__body .item__heading .item__name {
+  margin-bottom: 10px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #1B1A17;
+  opacity: 82%;
+}
+.main .main-upper__body .main-upper-items__body .main-upper__item .main-item__body .item__heading .item-price__body {
+  display: flex;
+}
+.main .main-upper__body .main-upper-items__body .main-upper__item .main-item__body .item__heading .item-price__body .item__price {
+  font-family: "Prata";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1B1A17;
+  opacity: 82%;
+}
+.main .main-upper__body .main-upper-items__body .main-upper__item .main-item__body .item__heading .item-price__body .item__currency {
+  margin: 0 0 2.5px 4px;
+}
+.main .main-upper__body .main-upper-items__body .main-upper__item .main-item__body .item-details__body {
+  width: 140px;
+  display: flex;
+  margin-left: 20px;
+}
+.main .main-upper__body .main-upper-items__body .main-upper__item .main-item__body .item-details__body .item__stripe {
+  width: 30px;
+  height: 1px;
+  border-top: 1px solid #8B8371;
+  margin: 11px 18px 0 0;
+}
+.main .main-upper__body .main-upper-items__body .main-upper__item .main-item__body .item-details__body .item__details {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1B1A17;
 }/*# sourceMappingURL=style.css.map */

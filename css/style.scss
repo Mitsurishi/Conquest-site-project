@@ -184,8 +184,9 @@ a {
     background-color: $color-white;
 
     .main-upper__body {
+        padding: 79px 0 86px 0;
+
         .main-upper__title {
-            margin-top: 79px;
             display: flex;
             justify-content: center;
             font-family: 'Playfair Display';
@@ -205,11 +206,82 @@ a {
             color: $color3;
             border-bottom: 1px solid #C4C0B6;
             margin-left: auto;
-            margin-bottom: 25.5px;
         }
 
         .main-upper-items__body {
             display: flex;
+            justify-content: space-between;
+            padding-top: 25.5px;
+
+            .main-upper__item {
+                display: flex;
+                justify-content: center;
+                box-sizing: border-box;
+                width: 370px;
+                height: 467px;
+                background-image: url(../img/Ellipse_item.svg);
+                background-position: 28px 90px;
+                background-repeat: no-repeat;
+                background-color: $color1;
+
+                .main-item__body {
+
+
+                    .item__heading {
+                        margin: 35px 0 0 20px;
+
+                        .item__name {
+                            margin-bottom: 10px;
+                            font-family: 'Playfair Display';
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: 0.03em;
+                            color: $color4;
+                            opacity: 82%;
+                        }
+
+                        .item-price__body {
+                            display: flex;
+
+                            .item__price {
+                                font-family: 'Prata';
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 16px;
+                                color: $color4;
+                                opacity: 82%;
+                            }
+
+                            .item__currency {
+                                margin: 0 0 2.5px 4px;
+                            }
+                        }
+                    }
+
+                    .item-details__body {
+                        width: 140px;
+                        display: flex;
+                        margin-left: 20px;
+
+                        .item__stripe {
+                            width: 30px;
+                            height: 1px;
+                            border-top: 1px solid $color5;
+                            margin: 11px 18px 0 0;
+                        }
+
+                        .item__details {
+                            font-family: 'Playfair Display';
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 21px;
+                            color: $color4;
+                        }
+                    }
+
+                }
+            }
         }
     }
 }
