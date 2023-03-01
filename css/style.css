@@ -20,15 +20,15 @@ a {
 .header {
   background-color: #FDFDFB;
 }
-.header .header__body {
+.header .header-upper__body {
   height: 85px;
   display: flex;
   justify-content: space-between;
 }
-.header .header__body .header__brand {
+.header .header-upper__body .header-upper__brand {
   margin-top: 31px;
 }
-.header .header__body .header__menu {
+.header .header-upper__body .header-upper__menu {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -40,19 +40,139 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.header .header__body .header__buttons {
+.header .header-upper__body .header-upper__buttons {
   margin-top: 35px;
   width: 99px;
   display: flex;
   justify-content: space-between;
 }
-
-.main {
-  background-color: #FDFDFB;
-}
-.main .main-upper__body {
+.header .header-bottom__body {
   height: 768px;
   background-image: url(../img/Watch_main.png), url(../img/Ellipse.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: right 100px top, center;
+  background-position: right 100px top, right 325px top;
+}
+.header .header-bottom__body .header-bottom__flex {
+  display: flex;
+}
+.header .header-bottom__body .header-bottom__flex .header-title__stripe {
+  margin: 272px 15px 0 0;
+  width: 50px;
+  border-top: 1px solid #8B8371;
+}
+.header .header-bottom__body .header-bottom__flex .header-banner__collection {
+  padding-top: 236px;
+}
+.header .header-bottom__body .header-bottom__flex .header-banner__collection .header-title__body .header__title {
+  width: 343px;
+  margin: 0 55px 16px 0;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1B1A17;
+}
+.header .header-bottom__body .header-bottom__flex .header-banner__collection .header-title__body .header__subtitle {
+  margin-bottom: 39px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1B1A17;
+}
+.header .header-bottom__body .header-bottom__flex .header-banner__collection .header-subtitle__body {
+  margin-bottom: 64px;
+  width: 258px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1B1A17;
+  opacity: 82%;
+}
+.header .header-bottom__body .header-bottom__flex .header-banner__collection .header-banner__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  height: 64px;
+  background-color: #444240;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header .header-bottom__body .header-bottom__flex .header-price__body {
+  margin: 138px 342px 0 0;
+  width: 140px;
+  height: 16px;
+  display: flex;
+}
+.header .header-bottom__body .header-bottom__flex .header-price__body .header-banner__price {
+  font-family: "Prata";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B1A17;
+  margin-right: 7px;
+}
+.header .header-bottom__body .header-bottom__flex .header-price__body .header-price__currency {
+  margin: 2.5px 15.5px 0 0;
+  width: 9.6px;
+  height: 13px;
+}
+.header .header-bottom__body .header-bottom__flex .header-price__body .header-price__stripe {
+  margin-top: 8.5px;
+  width: 50px;
+  border-top: 1px solid #8B8371;
+}
+.header .header-bottom__body .header-bottom__flex .header-diameter__body {
+  margin-top: 636px;
+  display: flex;
+  width: 187px;
+  height: 16px;
+}
+.header .header-bottom__body .header-bottom__flex .header-diameter__body .header-banner__diameter {
+  font-family: "Prata";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B1A17;
+}
+.header .header-bottom__body .header-bottom__flex .header-diameter__body .header-diameter__stripe {
+  margin: 10px 15px 0 0;
+  width: 50px;
+  border-top: 1px solid #8B8371;
+}
+
+.main {
+  background-color: #FFFFFF;
+}
+.main .main-upper__body .main-upper__title {
+  margin-top: 79px;
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+.main .main-upper__body .main-upper__button {
+  width: 104px;
+  height: 26.5px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444240;
+  border-bottom: 1px solid #C4C0B6;
+  margin-left: auto;
+  margin-bottom: 25.5px;
+}
+.main .main-upper__body .main-upper-items__body {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
